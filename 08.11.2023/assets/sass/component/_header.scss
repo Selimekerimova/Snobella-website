@@ -1,0 +1,75 @@
+#header{
+    background-color: $header-bgc;
+    padding: 20px 0;
+
+        .header-top{
+            @include flexBox();
+        .header-left{
+            @include flexBox();
+            gap: 20px;
+            p{
+                color:$header-c ;
+            }
+        }
+        .header-rigth{
+            ul{
+                @include flexBox();
+                gap:20px;
+                li{
+                    a{
+                        color: $header-c;
+                    }
+                }
+            }
+        }
+        }
+    }
+    header{
+        .header{
+            .top{
+                .input{
+                    position: relative;
+                    width: 20%;
+                    input{
+                        position: absolute;
+                        right: 0;
+                        width: 100%;
+                    }
+                    img{
+                        
+                    }
+                }
+                padding: 30px 0;
+                @include flexBox();
+                h1{
+                    font-size: 40px;
+                    color:#000000;
+                    font-weight: 700;
+                }
+                nav{
+                    ul{
+                        @include flexBox();
+                        li{
+                           padding: 0 20px;
+                            a{
+                                color: #2E2E2E;
+                            }
+                        }
+                    }
+                }
+            }
+            .botton{
+                nav{
+                    ul{
+                        @include flexBox();
+                        li{
+                            a{
+                                color: #2E2E2E;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
