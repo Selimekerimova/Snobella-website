@@ -1,5 +1,10 @@
-@mixin flexBox (){
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+@mixin flexBox ($display:flex,$justfy-content:space-between,$aling-items:center){
+    display:$display;
+    justify-content: $justfy-content;
+    align-items: $aling-items;
+}
+@mixin h1 (){
+    font-size: 40px;
+    color:#000000;
+     font-family: $font1;
 }
