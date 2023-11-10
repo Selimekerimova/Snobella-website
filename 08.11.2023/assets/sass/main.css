@@ -54,8 +54,8 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 1300px;
-  padding: auto 5%;
+  max-width: 1200px;
+  padding: 0 5%;
 }
 
 #header {
@@ -194,7 +194,7 @@ header .header .bottom nav ul li a {
 }
 
 footer {
-  margin: 30px 0;
+  padding: 30px 0;
   background-color: #F7F7F9;
 }
 footer .top-footer {
@@ -215,7 +215,7 @@ footer .top-footer .input input {
   width: 100%;
   border: none;
   padding: 10px;
-  background-color: #F7F9FC;
+  background-color: #fff;
 }
 footer .top-footer .input img {
   position: absolute;
@@ -240,18 +240,28 @@ footer .bottom-footer .footer-left div {
 footer .bottom-footer .footer-left div img {
   padding-right: 5px;
 }
-footer .bottom-footer nav ul h3 {
+footer .bottom-footer .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+footer .bottom-footer .nav ul h3 {
   font-weight: bold;
 }
-footer .bottom-footer nav ul li {
+footer .bottom-footer .nav ul li {
   padding-top: 10px;
 }
-footer .bottom-footer nav ul li a {
+footer .bottom-footer .nav ul li a {
   color: black;
 }
 @media screen and (max-width: 768px) {
   footer .bottom-footer {
     display: flex;
     flex-direction: column;
+  }
+  footer .bottom-footer .nav ul {
+    margin-top: 20px;
+    align-items: center;
   }
 }/*# sourceMappingURL=main.css.map */

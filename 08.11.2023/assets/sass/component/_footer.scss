@@ -1,5 +1,5 @@
 footer{
-    margin: 30px 0;
+    padding: 30px 0;
     background-color:$footer-bgc ;
     .top-footer{
         @include flexBox();
@@ -15,7 +15,7 @@ footer{
                     width: 100%;
                     border: none;
                     padding: 10px;
-                    background-color: $imput-bgc;
+                    background-color: #fff;
                 }
                img{
                 position: absolute;
@@ -39,7 +39,9 @@ footer{
             }
         }
     }
-    nav{
+    .nav{
+        @include flexBox();
+        gap: 100px;
         ul{
             h3{
                 font-weight: bold;
@@ -57,6 +59,15 @@ footer{
     .bottom-footer{
         display: flex;
         flex-direction: column;
+        .nav{
+
+            ul{
+                margin-top:20px ;
+                align-items: center;
+
+            }
+           
+        }
     }
 }
 }
