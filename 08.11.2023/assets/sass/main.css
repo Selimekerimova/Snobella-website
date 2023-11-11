@@ -52,37 +52,37 @@ a {
   text-decoration: none;
 }
 
-.product .product-bottom .box .box {
+.product .product-bottom .box {
   width: 350px;
   height: 500px;
   display: flex;
   flex-direction: column;
   text-align: start;
 }
-.product .product-bottom .box .top-button {
+.product .product-bottom .top-button {
   background-color: green;
   color: aliceblue;
   padding: 5px 20px;
   border: none;
   border-radius: 8px;
 }
-.product .product-bottom .box .img {
+.product .product-bottom .img {
   width: 200px;
   height: 250px;
   margin-left: 70px;
 }
-.product .product-bottom .box .img img {
+.product .product-bottom .img img {
   width: 100%;
 }
-.product .product-bottom .box .dollar {
+.product .product-bottom .dollar {
   color: red;
   font-weight: 600;
 }
-.product .product-bottom .box .dollar span {
+.product .product-bottom .dollar span {
   padding-left: 30px;
   color: rgba(54, 54, 54, 0.7490196078);
 }
-.product .product-bottom .box .bottom-button {
+.product .product-bottom .bottom-button {
   background-color: transparent;
   border-radius: 8px;
   width: 70%;
@@ -90,7 +90,7 @@ a {
   margin-top: 20px;
   margin-left: 30px;
 }
-.product .product-bottom .box p {
+.product .product-bottom p {
   width: 70%;
   padding: 20px 0;
 }
@@ -309,7 +309,28 @@ header .header .bottom nav ul li a {
 }
 
 .product {
-  background-color: #FFF7F7;
+  padding: 70px 0;
+}
+.product .product-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.product .product-bottom .box {
+  background-color: #fff !important;
+}
+@media screen and (max-width: 768px) {
+  .product .product-bottom .product-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+.product {
   padding: 70px 0;
 }
 .product .product-bottom {
@@ -324,6 +345,8 @@ header .header .bottom nav ul li a {
 @media screen and (max-width: 768px) {
   .product .product-bottom .product-bottom {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
     gap: 40px;
   }
@@ -392,9 +415,18 @@ footer .bottom-footer .nav ul li a {
   color: black;
 }
 @media screen and (max-width: 768px) {
+  footer .top-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
   footer .bottom-footer {
     display: flex;
     flex-direction: column;
+  }
+  footer .bottom-footer .nav {
+    display: block;
+    text-align: center;
   }
   footer .bottom-footer .nav ul {
     margin-top: 20px;
