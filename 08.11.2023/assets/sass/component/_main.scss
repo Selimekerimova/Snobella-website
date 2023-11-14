@@ -1,50 +1,49 @@
-#main{
-    background-color: $main-bgc;
-    .main{
-        @include flexBox();
-        .left-main{
-            width: 40%;
-            h2{
-                color: #DF4244;
-                font-size: 24px;
-                padding: 20px 0;
-            }
-            h1{
-                padding: 10px 0;
-                font-size: 40px;
-                color: #212121;
-                font-family: $font1;
-            }
-            p{
-                padding: 10px 0;
-                line-height: 20px;
-            }
-            button{
-                background-color: $header-bgc;
-                padding: 10px 25px;
-                border-radius: 8px;
-                color: white;
-                border: none;
-                &:hover{
-                    color: $header-bgc;
-                    background-color: transparent;
-                    border: 1px solid $header-bgc;
-                }
-            }
+#main {
+  background-color: $main-bgc;
+  .main {
+    @include flexBox();
+    .left-main {
+      width: 40%;
+      h2 {
+        color: #df4244;
+        font-size: 24px;
+        padding: 20px 0;
+      }
+      h1 {
+        padding: 10px 0;
+        font-size: 40px;
+        color: #212121;
+        font-family: $font1;
+      }
+      p {
+        padding: 10px 0;
+        line-height: 20px;
+      }
+      button {
+        background-color: $header-bgc;
+        padding: 10px 25px;
+        border-radius: 8px;
+        color: white;
+        border: none;
+        &:hover {
+          color: $header-bgc;
+          background-color: transparent;
+          border: 1px solid $header-bgc;
         }
-        .right-main{
-            width: 40%;
-            img{
-                width: 100%;
-            }
-        }
+      }
     }
-    @media screen and (max-width:768px) {
-        .main{
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-        }
+    .right-main {
+      width: 40%;
+      img {
+        width: 100%;
+      }
     }
-    
+  }
+  @media screen and (max-width: 768px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
 }

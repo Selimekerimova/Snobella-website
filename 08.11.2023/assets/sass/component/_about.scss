@@ -1,23 +1,23 @@
-#about{
-    background-color: $footer-bgc;
-    .about{
-            @include flexBox();
-            padding: 30px 0;
-            div{
-                @include flexBox();
-                img{
-                    margin-right: 5px;
-                }
-                a{
-                    color: #000000;
-                }
-            }
+#about {
+  background-color: $footer-bgc;
+  .about {
+    @include flexBox();
+    padding: 30px 0;
+    div {
+      @include flexBox();
+      img {
+        margin-right: 5px;
+      }
+      a {
+        color: #000000;
+      }
     }
-    @media screen and (max-width:768px){
-        .about{
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-        }
+  }
+  @media screen and (max-width: 768px) {
+    .about {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
     }
+  }
 }

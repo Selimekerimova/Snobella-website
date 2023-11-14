@@ -146,7 +146,7 @@ header .header .top .input input {
   width: 100%;
   border: none;
   padding: 10px;
-  background-color: #F7F9FC;
+  background-color: #f7f9fc;
 }
 header .header .top .input img {
   position: absolute;
@@ -168,7 +168,7 @@ header .header .top nav ul li {
   padding: 0 20px;
 }
 header .header .top nav ul li a {
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 @media screen and (max-width: 767px) {
   header .header .top nav {
@@ -184,7 +184,7 @@ header .header .bottom nav ul li {
   padding-bottom: 20px;
 }
 header .header .bottom nav ul li a {
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 @media screen and (max-width: 768px) {
   header .header nav ul {
@@ -194,7 +194,7 @@ header .header .bottom nav ul li a {
 }
 
 #main {
-  background-color: #FFE2E0;
+  background-color: #ffe2e0;
 }
 #main .main {
   display: flex;
@@ -205,7 +205,7 @@ header .header .bottom nav ul li a {
   width: 40%;
 }
 #main .main .left-main h2 {
-  color: #DF4244;
+  color: #df4244;
   font-size: 24px;
   padding: 20px 0;
 }
@@ -246,7 +246,7 @@ header .header .bottom nav ul li a {
 }
 
 #about {
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 #about .about {
   display: flex;
@@ -286,7 +286,7 @@ header .header .bottom nav ul li a {
   height: 150px;
   margin: 10px 0 30px 0;
   padding: 10px 0;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   position: relative;
 }
 .product .product-top .box img {
@@ -322,7 +322,7 @@ header .header .bottom nav ul li a {
   gap: 40px;
 }
 .product .product-bottom .box {
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 @media screen and (max-width: 768px) {
   .product .product-bottom {
@@ -364,7 +364,7 @@ header .header .bottom nav ul li a {
   gap: 40px;
 }
 .product .product-bottom .box {
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 @media screen and (max-width: 768px) {
   .product .product-bottom .product-bottom {
@@ -378,7 +378,7 @@ header .header .bottom nav ul li a {
 
 footer {
   padding: 30px 0;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 footer .top-footer {
   display: flex;
