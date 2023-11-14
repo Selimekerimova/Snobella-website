@@ -90,6 +90,9 @@ a {
   margin-top: 20px;
   margin-left: 30px;
 }
+.product .product-bottom .bottom-button:hover {
+  background-color: aqua;
+}
 .product .product-bottom p {
   width: 70%;
   padding: 20px 0;
@@ -280,14 +283,16 @@ header .header .bottom nav ul li a {
 }
 .product .product-top .box {
   width: 260px;
-  margin: 30px 0;
+  height: 150px;
+  margin: 10px 0 30px 0;
   padding: 10px 0;
   background-color: #F7F7F9;
+  position: relative;
 }
 .product .product-top .box img {
-  width: 160px;
-  height: 150px;
-  margin-left: 90px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 @media screen and (max-width: 768px) {
   .product .product-top {
@@ -426,12 +431,17 @@ footer .bottom-footer .nav {
 }
 footer .bottom-footer .nav ul h3 {
   font-weight: bold;
+  font-size: 20px;
 }
 footer .bottom-footer .nav ul li {
   padding-top: 10px;
 }
 footer .bottom-footer .nav ul li a {
   color: black;
+  font-size: 20px;
+}
+footer .bottom-footer .nav ul li a:hover {
+  color: blue;
 }
 @media screen and (max-width: 768px) {
   footer .top-footer {
