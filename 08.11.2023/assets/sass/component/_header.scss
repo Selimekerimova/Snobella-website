@@ -74,6 +74,9 @@ header {
             padding-bottom: 20px;
             a {
               color: #2e2e2e;
+              &:hover {
+                color: rgb(127, 221, 221);
+              }
             }
           }
         }

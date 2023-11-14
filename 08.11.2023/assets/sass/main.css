@@ -186,6 +186,9 @@ header .header .bottom nav ul li {
 header .header .bottom nav ul li a {
   color: #2e2e2e;
 }
+header .header .bottom nav ul li a:hover {
+  color: rgb(127, 221, 221);
+}
 @media screen and (max-width: 768px) {
   header .header nav ul {
     display: flex;
@@ -441,7 +444,7 @@ footer .bottom-footer .nav ul li a {
   font-size: 20px;
 }
 footer .bottom-footer .nav ul li a:hover {
-  color: blue;
+  color: rgb(127, 221, 221);
 }
 @media screen and (max-width: 768px) {
   footer .top-footer {
