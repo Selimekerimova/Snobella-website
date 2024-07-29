@@ -45,7 +45,8 @@
     gap: 40px;
     @extend %boxes;
     .box {
-      background-color: $footer-bgc;
+      background-color: red;
+      display: flex;
     }
   }
   @media screen and (max-width: 768px) {

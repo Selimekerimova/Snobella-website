@@ -325,7 +325,8 @@ header .header .bottom nav ul li a:hover {
   gap: 40px;
 }
 .product .product-bottom .box {
-  background-color: #f7f7f9;
+  background-color: red;
+  display: flex;
 }
 @media screen and (max-width: 768px) {
   .product .product-bottom {
